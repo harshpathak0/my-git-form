@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page-tnpLab</title>
+    <style>
+          ul {
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            position: absolute;
+            top: 20;
+            width: 100%;
+            
+        }
+       li{
+            font-size:25px;
+            padding: 30px;
+            display: block;
+            color: white;
+            text-align: center;                                         
+            float:left;
+            margin-left: 37px;
+       } 
+       .first-text{
+        position: absolute;
+        left: 40%;
+        top: 200px;
+        color: aliceblue;
+       }
+      #button{
+         position: absolute; 
+         left: 40%;
+         top: 380px;
+         width: 170px;
+         height: 50px;
+         color: white;
+         background-color: rgb(102, 96, 96);
+         border-radius: 10px;
+      }
+      #button2{
+         position: absolute; 
+         left: 60%;
+         top: 380px;
+         width: 170px;
+         height: 50px;
+         color: white;
+         background-color: rgb(102, 96, 96);
+         border-radius: 10px;
+      }
+      .image{
+        position:absolute;
+        display:inline;
+        height: 30px;
+        width: 30px;
+        left: 40%;
+        top: 520px;
+        border-radius: 50%;
+      }
+    </style>
+</head>
+<body>
+    <!--navigation bar-->
+ 
+    <div style="height: 10vh; background-color: rgb(10, 10, 19);">
+        <nav>
+            <ul>
+                <li><a href="#">tnpLab</a></li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Training</li>
+                <li>course</li>
+                <li>Placement</li>
+                <li>contact us</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div style="height: 90vh;">
+       <img src="coding image.jpg"  style="position: relative;height:100%; width:100%;">
+       <h1 class="first-text">Enhance your <span style="color: rgb(110, 197, 197);  position: absolute; left: 105%; top: 3px;">Skills</span></h1>
+      
+       <h3 style="color: rgb(244, 245, 245);  position: absolute; left: 35%; top: 300px;">Accelerate your </h3>
+       <h3 style="color: rgb(110, 192, 192);  position: absolute; left: 45%; top: 300px;">Career </h3>
+       <h3 style="color: rgb(250, 253, 253);  position: absolute; left: 50%; top: 300px;">From Anywhere in the world!</h3>
+       <h5 style="color: rgb(250, 253, 253);  position: absolute; left: 34%; top: 450px;">HELPING THOUSANDS OF ORGANIZATION BUILD TECH SKILLS AT SCALE</h5>
+       <button id="button"> <b>Enroll Traning ></b></button>
+       <button id="button2"><b> Enroll Course  ></b></button>
+       <img src="bird logo.jpg" style="position:absolute; display:inline; height: 30px; width: 30px; left: 40%; top: 520px; border-radius: 50%;" >
+        <img src="bird logo.jpg" style="position:absolute; display:inline; height: 30px; width: 30px; left: 47%; top: 520px; border-radius: 50%;" >
+        <img src="bird logo.jpg" style="position:absolute; display:inline; height: 30px; width: 30px; left: 55%; top: 520px; border-radius: 50%;"  >
+        <img src="bird logo.jpg" style="position:absolute; display:inline; height: 30px; width: 30px; left: 62%; top: 520px; border-radius: 50%;" >
+    </div>
+  
+</body>
+</html>
